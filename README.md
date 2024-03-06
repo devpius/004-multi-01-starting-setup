@@ -22,7 +22,7 @@ Follow these steps to run the application:
 
 1. Clone this repository:
 ```
-git clone https://github.com/devpius/004-multi-01-starting-setup.git
+git clone https://github.com/devpius/multi-01-starting-setup.git
 ```
 
 2. Navigate to the project directory:
@@ -34,7 +34,7 @@ cd 004-multi-01-starting-setup
 3. Create a network for the application:ur.email@example.comur.email@example.com
 
 ```004-multi-01-starting-setup
-docker network create goals-netur.email@example.com
+docker network create goals-net
 ```
 
 4. Build and run the MongoDB container:Feel free to contribute by opening an issue or pull request!
