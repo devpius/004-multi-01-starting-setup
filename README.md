@@ -11,26 +11,24 @@ This was a practice project to get my self aquinted with docker, containerizing 
 
 ## Prerequisites
 
-Before running the application, ensure you have the following installed:Feel free to contribute by opening an issue or pull request!
+Before running the application, ensure you have the following installed (linux):Feel free to contribute by opening an issue or pull request!
 Feel free to contribute by opening an issue or pull request!
 - Node.js
 - Docker
-- Docker Compose
 
 ## Getting Started
 
 Follow these steps to run the application:
 
 1. Clone this repository:
-your.email@example.com
 ```
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/devpius/004-multi-01-starting-setup.git
 ```
 
 2. Navigate to the project directory:
 
 ```
-cd your-repository
+cd 004-multi-01-starting-setup
 ```
 
 3. Create a network for the application:
