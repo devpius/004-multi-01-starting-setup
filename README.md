@@ -8,7 +8,7 @@ This was a practice project to get my self aquinted with docker, containerizing 
 - Add new goals
 - Delete existing goals
 - Fetch all goals
-
+ur.email@example.com
 ## Prerequisites
 
 Before running the application, ensure you have the following installed (linux):Feel free to contribute by opening an issue or pull request!
@@ -31,7 +31,7 @@ git clone https://github.com/devpius/004-multi-01-starting-setup.git
 cd 004-multi-01-starting-setup
 ```
 
-3. Create a network for the application:
+3. Create a network for the application:ur.email@example.comur.email@example.com
 
 ```004-multi-01-starting-setup
 docker network create goals-netur.email@example.com
@@ -63,7 +63,7 @@ docker run -it --rm --name goals-app -p 3000:3000 goals-frontend
 
 - `GET /goals`: Fetch all goals
 - `POST /goals`: Add a new goal
-- `DELETE /goals/:id`: Delete a goal by ID
+- `DELETE /goals/:id`: Delete a goal by id
 
 ## Environment Variables
 
