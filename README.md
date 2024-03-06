@@ -1,7 +1,7 @@
 # Course Goals App
 
 This repository contains the backend code for a course goals application built with Express.js and MongoDB.
-This was a practice project to get my self aquitend with docker, containerizing multple apps, docker networking, data persistence, ie bind mounts, named volumes 
+This was a practice project to get my self aquinted with docker, containerizing multple apps, docker networking ie cross docker communication, data persistence, ie bind mounts, named volumes 
 
 ## Features
 
