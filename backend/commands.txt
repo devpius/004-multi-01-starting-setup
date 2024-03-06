@@ -1,0 +1,14 @@
+## create a network
+docker network create goals-net
+
+## backend
+docker build -t goals-node .
+docker run --rm -d --name goals-backend -v logs:/app/logs -v /home/pius/Desktop/dockerprojects/004-multi-01-starting-setup/backend:/app -v /app/node_modules -p 80:80 --network goals-net -e MONGODB_USERNAME=root -e MONGODB_PASSWORD=root goals-node
+
+## frontend 
+docker build -t  goals-frontend .
+docker run -it --rm --name goals-app -p  3000:3000  goals-frontend
+
+
+## mongo db
+docker run -v data:/data/db --rm -d --name mongodb --network goals-net -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=root mongo
